@@ -16,3 +16,20 @@ body {
   position:fixed;
   top:96%;
 }
+#app1{
+  background-color:#B7BBF0;
+  height:100.5px;
+  width:100%;
+  position: absolute;
+  top:6%;
+}
+#t{
+  position:absolute;
+  left:10%;
+}
+#imgg{
+  height:100px;
+  width:100px;
+  position:absolute;
+  top:5%;;
+}
