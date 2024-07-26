@@ -27,6 +27,17 @@ body {
   position:absolute;
   left:10%;
 }
+#down{
+  position:absolute;
+  left:80%;
+  height:100px;
+  width:200px;
+  font-size: 50px;
+  border-radius: 30%;
+  border-width: 10px;
+  border-color: #0015FF #96FF00 #1CFF00  #00DAFF;
+  background-color: #29FF00;
+}
 #imgg{
   height:100px;
   width:100px;
