@@ -1,5 +1,3 @@
-function downloadmala(){
-  var a=document.createElement('a');
-  a.href=url('apk/bm.apk');
-  a.download
-}
+document.getElementById('down').addEventListener('click',function(){
+   window.location.href='https://appsgeyser.io/18160362/Bhakti-Marg'
+})
