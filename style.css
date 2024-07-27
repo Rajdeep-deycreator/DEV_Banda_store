@@ -1,5 +1,6 @@
-body {
+html,body {
     font-size: 15pt;
+    background-color: black;
 }
 #heading{
   height: 50px;
@@ -17,11 +18,12 @@ body {
   top:96%;
 }
 #app1{
-  background-color:#B7BBF0;
-  height:100.5px;
+  background-color:#1B1111;
+  height:150px;
   width:100%;
   position: absolute;
   top:6%;
+  color:#FDFDFD;
 }
 #t{
   position:absolute;
@@ -29,18 +31,21 @@ body {
 }
 #down{
   position:absolute;
-  left:80%;
+  left:39%;
+  top:25%;
   height:100px;
-  width:200px;
+  width:400px;
   font-size: 50px;
-  border-radius: 30%;
+  border-radius: 40%;
   border-width: 10px;
-  border-color: #0015FF #96FF00 #1CFF00  #00DAFF;
-  background-color: #29FF00;
+  border-color:#FFFFFF #FFFFFF;
+  background-color: #000000;
+  color:#FFFFFF;
 }
 #imgg{
   height:100px;
   width:100px;
   position:absolute;
-  top:5%;;
+  top:25%;
+  left:25%;
 }
