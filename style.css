@@ -1,14 +1,15 @@
 html,body {
     background-color: black;
-    min-width: 100000px;
+    min-width: 1000px;
 }
 #heading{
-  height: 50px;
+  height: 150px;
   width: 100%;
   background-color:#00BEFF;
   text-align: center;
   position: fixed;
   top:0%;
+
 }
 #lower{
   height:100px;
@@ -19,20 +20,21 @@ html,body {
 }
 #app1{
   background-color:#1B1111;
-  height:150px;
+  height:300px;
   width:1000%;
   position: absolute;
-  top:8%;
+  top:30%;
   color:#FFFFFF;
 }
 #t{
   position:absolute;
   left:10%;
+  font-size: 40px;
 }
 #down{
   position:absolute;
   left:15%;
-  top:25%;
+  top:60%;
   height:100px;
   width:400px;
   font-size: 50px;
@@ -43,9 +45,8 @@ html,body {
   color:#FFFFFF;
 }
 #imgg{
-  height:100px;
-  width:100px;
+  height:300px;
+  width:350px;
   position:absolute;
-  top:25%;
-  left:10%;
+  top:0%;
 }
