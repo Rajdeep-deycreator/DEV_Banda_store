@@ -1,6 +1,6 @@
 html,body {
-    font-size: 15pt;
     background-color: black;
+    min-width: 100000px;
 }
 #heading{
   height: 50px;
@@ -20,10 +20,10 @@ html,body {
 #app1{
   background-color:#1B1111;
   height:150px;
-  width:100%;
+  width:1000%;
   position: absolute;
-  top:6%;
-  color:#FDFDFD;
+  top:8%;
+  color:#FFFFFF;
 }
 #t{
   position:absolute;
@@ -31,7 +31,7 @@ html,body {
 }
 #down{
   position:absolute;
-  left:39%;
+  left:15%;
   top:25%;
   height:100px;
   width:400px;
@@ -47,5 +47,5 @@ html,body {
   width:100px;
   position:absolute;
   top:25%;
-  left:25%;
+  left:10%;
 }
