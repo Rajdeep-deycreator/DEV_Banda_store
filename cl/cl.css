@@ -1,0 +1,19 @@
+.html,body{
+  background-color: #12E0014A;
+}
+#form{
+  background-color: #00FF0147;
+  height:100px;
+  margin: 15px;
+  padding: 15px;
+}
+#n{
+  margin:5px;
+}
+#e{
+  margin:5px;
+}
+#sub{
+  border-width: 10px;
+  border-color: #000000;
+}

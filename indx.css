@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+  html, body { /* Corrected selector */
+    background: url("bck.jpg") no-repeat center center; /* Center the background */
+    background-size: cover; /* Cover the entire background */
+    height: 100vh; /* Fill the viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  #conyent {
+    background-color: rgba(243, 244, 255, 0.5);
+    backdrop-filter: blur(6px);
+    height: 600px; /* Height for the content */
+    margin: 0; /* Remove margin */
+  }
+  .h {
+    text-align: center;
+    background: url("bck.jpg") no-repeat; /* Background for text */
+    background-size: cover; /* Cover for text background */
+    -webkit-background-clip: text; /* Clip background to text */
+    color: transparent; /* Make text transparent */
+  }
+  #idg{
+    position:relative;
+    left:25%;
+    background-color: #000000;
+    border-width: 9px;
+    border-radius: 30%;
+    border-color: #FAFAFF;
+    color: #FFFFFF;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html, body { /* Corrected selector */
+    background: url("bck.jpg") no-repeat center center; /* Center the background */
+    background-size: 1023px 1370px; /* Size for medium screens */
+    margin: 0; /* Remove default margin */
+  }
+  #conyent {
+    background-color: rgba(243, 244, 255, 0.5);
+    backdrop-filter: blur(6px);
+    height: 1370px; /* Height for the content */
+    margin: 0; /* Remove margin */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html, body { /* Corrected selector */
+    background: url("bck.jpg") no-repeat center center; /* Center the background */
+    background-size: 1024px 1370px; /* Size for larger screens */
+    margin: 0; /* Remove default margin */
+  }
+  #conyent {
+    background-color: rgba(243, 244, 255, 0.5);
+    backdrop-filter: blur(6px);
+    height: 2000px; /* Height for the content */
+    margin: 0; /* Remove margin */
+  }
+}
