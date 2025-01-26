@@ -8,16 +8,31 @@ const firebaseConfig = {
   appId: "1:224066277556:web:dcd8c243723e86ccc687e1",
   measurementId: "G-R8M6D9VQG9"
 };
-const app=firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 const db=firebase.firestore();
+var userrrr=sessionStorage.getItem('i');
+var name;
+var phno;
+document.getElementById('submit').addEventListener('click', function() {
+      event.preventDefault()
+db.collection('users').doc(userrrr).get().then((datata)=>{
+  if(datata.exists){
+    var datatata=datata.data();
+    name=datatata.n;
+    phno=datatata.ph;
+    var foum=document.getElementById('form')
+    foum.innerHTML+='<br>Name:'+name+'<br>Ph no.'+phno;
+    foum.style.color='#FFFFFF';
+  }
+  else{
+    alert('you are not registered ');
+  }
+})
 
-document.getElementById('submit').addEventListener('click',function (){
-  event.preventDefault();
   const formdata={
-  name:document.getElementById('name').value,email:document.getElementById('email').value,phone:document.getElementById('phno').value,
-  clid:document.getElementById('clid').value
+  name:name,phone:phno
   };
-  db.collection('data').add(formdata).then(() =>{
+  db.collection('data').set(formdata).then(() =>{
     alert('data sent');
   }).catch((error) => {
     alert(error);

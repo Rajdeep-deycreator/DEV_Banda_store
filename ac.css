@@ -1,0 +1,37 @@
+html,body{
+  background-color: #9C9C9C;
+}
+
+#sum{
+  background-color: #9C9C9C;
+  height:40vh;
+  margin:0 auto;
+  display:block;
+  overflow-y: hidden;
+  
+  
+}
+#bo{
+  position:relative;
+  top:1vh;
+  height:60vh;
+  background-color: #FFFFFF;
+}
+#da{
+  position:relative;
+  left:40%;
+  top:40%;
+  color: #FFFFFF;
+  display:block;
+}
+#prph{
+  
+  height :80px;
+  width:80px;
+  border-radius: 50%;
+  position:relative;
+  top:37%;
+  left:39%;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
